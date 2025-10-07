@@ -1,0 +1,58 @@
+{
+  "test_requirements_mapping": {
+    "IS 7098": [
+      "Routine Tests as per IS 7098",
+      "Type Tests for XLPE Insulation",
+      "Fire Retardant Test",
+      "Partial Discharge Test", 
+      "Impulse Voltage Test"
+    ],
+    "IS 694": [
+      "Routine Tests as per IS 694",
+      "Insulation Resistance Test",
+      "Conductor Resistance Test",
+      "Voltage Test"
+    ],
+    "IS 1554-1": [
+      "Routine Tests as per IS 1554-1",
+      "Insulation Resistance Test",
+      "Voltage Test"
+    ],
+    "IS 1554-2": [
+      "Routine Tests as per IS 1554-2",
+      "Insulation Resistance Test", 
+      "Voltage Test"
+    ]
+  },
+  "certification_requirements": {
+    "BIS_mark": {
+      "cost": 25000.0,
+      "validity_years": 2,
+      "description": "Bureau of Indian Standards certification"
+    },
+    "ISI_mark": {
+      "cost": 20000.0,
+      "validity_years": 2,
+      "description": "Indian Standards Institution mark"
+    },
+    "fire_retardant_certification": {
+      "cost": 15000.0,
+      "validity_years": 3,
+      "description": "Fire retardant properties certification"
+    }
+  },
+  "delivery_requirements": {
+    "standard_delivery": {
+      "days": 45,
+      "cost_multiplier": 1.0
+    },
+    "expedited_delivery": {
+      "days": 30,
+      "cost_multiplier": 1.15
+    },
+    "express_delivery": {
+      "days": 20,
+      "cost_multiplier": 1.25
+    }
+  }
+}

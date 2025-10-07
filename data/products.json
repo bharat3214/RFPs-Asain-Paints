@@ -1,0 +1,202 @@
+{
+  "products": [
+    {
+      "sku": "PWR-11KV-240-XLPE-001",
+      "product_name": "11kV XLPE Power Cable - 240 sq.mm",
+      "category": "cables",
+      "manufacturer": "ABC Cables Ltd",
+      "specifications": {
+        "voltage_rating": "11kV",
+        "conductor_material": "Copper",
+        "conductor_cross_section": "240 sq.mm",
+        "insulation_type": "XLPE",
+        "sheath_material": "PVC",
+        "standard": "IS 7098-1",
+        "fire_retardant": true,
+        "operating_temperature": "90°C",
+        "short_circuit_temperature": "250°C",
+        "bending_radius": "15 x cable diameter"
+      },
+      "unit_price": 850.0,
+      "availability": true
+    },
+    {
+      "sku": "PWR-11KV-300-XLPE-002",
+      "product_name": "11kV XLPE Power Cable - 300 sq.mm",
+      "category": "cables",
+      "manufacturer": "ABC Cables Ltd",
+      "specifications": {
+        "voltage_rating": "11kV",
+        "conductor_material": "Copper",
+        "conductor_cross_section": "300 sq.mm",
+        "insulation_type": "XLPE",
+        "sheath_material": "PVC",
+        "standard": "IS 7098-1",
+        "fire_retardant": true,
+        "operating_temperature": "90°C",
+        "short_circuit_temperature": "250°C",
+        "bending_radius": "15 x cable diameter"
+      },
+      "unit_price": 1050.0,
+      "availability": true
+    },
+    {
+      "sku": "PWR-33KV-400-XLPE-001",
+      "product_name": "33kV XLPE Power Cable - 400 sq.mm",
+      "category": "cables",
+      "manufacturer": "ABC Cables Ltd",
+      "specifications": {
+        "voltage_rating": "33kV",
+        "conductor_material": "Copper",
+        "conductor_cross_section": "400 sq.mm",
+        "insulation_type": "XLPE",
+        "sheath_material": "HDPE",
+        "standard": "IS 7098-2",
+        "fire_retardant": true,
+        "operating_temperature": "90°C",
+        "short_circuit_temperature": "250°C",
+        "bending_radius": "20 x cable diameter"
+      },
+      "unit_price": 2100.0,
+      "availability": true
+    },
+    {
+      "sku": "PWR-33KV-500-XLPE-001",
+      "product_name": "33kV XLPE Power Cable - 500 sq.mm",
+      "category": "cables",
+      "manufacturer": "ABC Cables Ltd",
+      "specifications": {
+        "voltage_rating": "33kV",
+        "conductor_material": "Copper",
+        "conductor_cross_section": "500 sq.mm",
+        "insulation_type": "XLPE",
+        "sheath_material": "HDPE",
+        "standard": "IS 7098-2",
+        "fire_retardant": true,
+        "operating_temperature": "90°C",
+        "short_circuit_temperature": "250°C",
+        "bending_radius": "20 x cable diameter"
+      },
+      "unit_price": 2580.0,
+      "availability": true
+    },
+    {
+      "sku": "HSE-1.1KV-2.5-PVC-001",
+      "product_name": "House Wiring Cable 2.5 sq.mm PVC",
+      "category": "wires",
+      "manufacturer": "ABC Cables Ltd",
+      "specifications": {
+        "voltage_rating": "1.1kV",
+        "conductor_material": "Copper",
+        "conductor_cross_section": "2.5 sq.mm",
+        "insulation_type": "PVC",
+        "sheath_material": "PVC",
+        "standard": "IS 694",
+        "fire_retardant": false,
+        "operating_temperature": "70°C",
+        "conductor_class": "Class 2"
+      },
+      "unit_price": 45.0,
+      "availability": true
+    },
+    {
+      "sku": "HSE-1.1KV-4.0-PVC-001", 
+      "product_name": "House Wiring Cable 4.0 sq.mm PVC",
+      "category": "wires",
+      "manufacturer": "ABC Cables Ltd",
+      "specifications": {
+        "voltage_rating": "1.1kV",
+        "conductor_material": "Copper",
+        "conductor_cross_section": "4.0 sq.mm",
+        "insulation_type": "PVC",
+        "sheath_material": "PVC",
+        "standard": "IS 694",
+        "fire_retardant": false,
+        "operating_temperature": "70°C",
+        "conductor_class": "Class 2"
+      },
+      "unit_price": 68.0,
+      "availability": true
+    },
+    {
+      "sku": "ARM-1.1KV-16-4C-001",
+      "product_name": "Armoured Cable 4 Core 16 sq.mm",
+      "category": "cables",
+      "manufacturer": "ABC Cables Ltd", 
+      "specifications": {
+        "voltage_rating": "1.1kV",
+        "conductor_material": "Copper",
+        "conductor_cross_section": "16 sq.mm",
+        "number_of_cores": 4,
+        "insulation_type": "PVC",
+        "sheath_material": "PVC",
+        "armour_type": "Steel Wire",
+        "standard": "IS 1554-1",
+        "fire_retardant": true,
+        "operating_temperature": "70°C"
+      },
+      "unit_price": 320.0,
+      "availability": true
+    },
+    {
+      "sku": "ARM-1.1KV-25-4C-001",
+      "product_name": "Armoured Cable 4 Core 25 sq.mm",
+      "category": "cables",
+      "manufacturer": "ABC Cables Ltd",
+      "specifications": {
+        "voltage_rating": "1.1kV",
+        "conductor_material": "Copper", 
+        "conductor_cross_section": "25 sq.mm",
+        "number_of_cores": 4,
+        "insulation_type": "PVC",
+        "sheath_material": "PVC",
+        "armour_type": "Steel Wire",
+        "standard": "IS 1554-1",
+        "fire_retardant": true,
+        "operating_temperature": "70°C"
+      },
+      "unit_price": 485.0,
+      "availability": true
+    },
+    {
+      "sku": "CTL-1.1KV-2.5-12C-001",
+      "product_name": "Control Cable 12 Core 2.5 sq.mm",
+      "category": "cables",
+      "manufacturer": "ABC Cables Ltd",
+      "specifications": {
+        "voltage_rating": "1.1kV",
+        "conductor_material": "Copper",
+        "conductor_cross_section": "2.5 sq.mm",
+        "number_of_cores": 12,
+        "insulation_type": "PVC",
+        "sheath_material": "PVC",
+        "standard": "IS 1554-2",
+        "fire_retardant": false,
+        "operating_temperature": "70°C",
+        "screen": "Copper Tape"
+      },
+      "unit_price": 180.0,
+      "availability": true
+    },
+    {
+      "sku": "CTL-1.1KV-1.5-24C-001",
+      "product_name": "Control Cable 24 Core 1.5 sq.mm",
+      "category": "cables", 
+      "manufacturer": "ABC Cables Ltd",
+      "specifications": {
+        "voltage_rating": "1.1kV",
+        "conductor_material": "Copper",
+        "conductor_cross_section": "1.5 sq.mm",
+        "number_of_cores": 24,
+        "insulation_type": "PVC",
+        "sheath_material": "PVC",
+        "standard": "IS 1554-2",
+        "fire_retardant": false,
+        "operating_temperature": "70°C",
+        "screen": "Copper Tape"
+      },
+      "unit_price": 285.0,
+      "availability": true
+    }
+  ]
+}

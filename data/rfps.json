@@ -1,0 +1,153 @@
+{
+  "sample_rfps": [
+    {
+      "rfp_id": "RFP-2024-001",
+      "title": "Supply of Power Cables for Metro Rail Project Phase-II",
+      "organization": "Delhi Metro Rail Corporation (DMRC)",
+      "submission_deadline": "2025-12-15",
+      "project_value": 25000000,
+      "requirements": [
+        {
+          "item_no": "1",
+          "description": "11kV XLPE Power Cable",
+          "quantity": 5000,
+          "unit": "meters",
+          "technical_specs": {
+            "voltage_rating": "11kV",
+            "conductor_material": "Copper",
+            "conductor_cross_section": "240 sq.mm",
+            "insulation_type": "XLPE",
+            "sheath_material": "PVC",
+            "standard": "IS 7098-1",
+            "fire_retardant": true,
+            "operating_temperature": "90°C"
+          }
+        },
+        {
+          "item_no": "2", 
+          "description": "33kV XLPE Power Cable",
+          "quantity": 2000,
+          "unit": "meters",
+          "technical_specs": {
+            "voltage_rating": "33kV",
+            "conductor_material": "Copper", 
+            "conductor_cross_section": "400 sq.mm",
+            "insulation_type": "XLPE",
+            "sheath_material": "HDPE",
+            "standard": "IS 7098-2",
+            "fire_retardant": true,
+            "operating_temperature": "90°C"
+          }
+        }
+      ],
+      "testing_requirements": [
+        "Routine Tests as per IS 7098",
+        "Type Tests for XLPE Insulation", 
+        "Fire Retardant Test",
+        "Partial Discharge Test",
+        "Impulse Voltage Test"
+      ],
+      "acceptance_criteria": [
+        "All cables must pass routine tests",
+        "Sample testing for type tests - 1 sample per 1000m",
+        "Fire retardant certification required",
+        "Delivery in 60 days from award"
+      ],
+      "status": "identified",
+      "source_url": "https://dmrc.gov.in/tenders"
+    },
+    {
+      "rfp_id": "RFP-2024-002",
+      "title": "Electrical Wiring for Smart City Infrastructure",
+      "organization": "Pune Smart City Development Corporation",
+      "submission_deadline": "2025-11-28", 
+      "project_value": 15000000,
+      "requirements": [
+        {
+          "item_no": "1",
+          "description": "House Wiring Cable 2.5 sq.mm",
+          "quantity": 50000,
+          "unit": "meters",
+          "technical_specs": {
+            "voltage_rating": "1.1kV",
+            "conductor_material": "Copper",
+            "conductor_cross_section": "2.5 sq.mm", 
+            "insulation_type": "PVC",
+            "sheath_material": "PVC",
+            "standard": "IS 694",
+            "fire_retardant": false,
+            "operating_temperature": "70°C"
+          }
+        },
+        {
+          "item_no": "2",
+          "description": "Armoured Cable 4 Core 16 sq.mm",
+          "quantity": 10000,
+          "unit": "meters", 
+          "technical_specs": {
+            "voltage_rating": "1.1kV",
+            "conductor_material": "Copper",
+            "conductor_cross_section": "16 sq.mm",
+            "insulation_type": "PVC", 
+            "sheath_material": "PVC",
+            "armour_type": "Steel Wire",
+            "standard": "IS 1554-1",
+            "fire_retardant": true,
+            "operating_temperature": "70°C"
+          }
+        }
+      ],
+      "testing_requirements": [
+        "Routine Tests as per IS 694",
+        "Insulation Resistance Test",
+        "Conductor Resistance Test", 
+        "Voltage Test"
+      ],
+      "acceptance_criteria": [
+        "All cables must pass routine tests",
+        "Delivery in 45 days from award",
+        "ISI mark certification required"
+      ],
+      "status": "identified",
+      "source_url": "https://punesmartcity.gov.in/tenders"
+    },
+    {
+      "rfp_id": "RFP-2024-003",
+      "title": "Cable Supply for Industrial Plant Expansion",
+      "organization": "Bharat Heavy Electricals Limited (BHEL)",
+      "submission_deadline": "2025-12-20",
+      "project_value": 8000000,
+      "requirements": [
+        {
+          "item_no": "1",
+          "description": "Control Cable 12 Core 2.5 sq.mm",
+          "quantity": 15000,
+          "unit": "meters",
+          "technical_specs": {
+            "voltage_rating": "1.1kV",
+            "conductor_material": "Copper",
+            "conductor_cross_section": "2.5 sq.mm",
+            "number_of_cores": 12,
+            "insulation_type": "PVC",
+            "sheath_material": "PVC",
+            "standard": "IS 1554-2",
+            "fire_retardant": false,
+            "operating_temperature": "70°C"
+          }
+        }
+      ],
+      "testing_requirements": [
+        "Routine Tests as per IS 1554-2",
+        "Insulation Resistance Test",
+        "Voltage Test"
+      ],
+      "acceptance_criteria": [
+        "All cables must pass routine tests",
+        "Delivery in 30 days from award",
+        "BIS certification required"
+      ],
+      "status": "identified",
+      "source_url": "https://bhel.gov.in/tenders"
+    }
+  ]
+}
