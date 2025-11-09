@@ -28,29 +28,6 @@ graph TD
 | **💰 Pricing Agent** | Cost Calculation | Dynamic pricing, quantity discounts, testing costs, margins |
 | **🎭 Master Agent** | Orchestration | Workflow management, response consolidation, decision support |
 
-## 🚀 Quick Start
-
-### Option 1: Web Interface (Recommended)
-```bash
-# Launch the Streamlit web interface
-./launch_ui.sh
-
-# Or manually:
-streamlit run streamlit_app.py
-```
-**Access at:** http://localhost:8501
-
-### Option 2: Command Line Interface
-```bash
-# Run complete analysis
-python main.py
-
-# Demo mode
-python main.py demo
-
-# Save results
-python main.py --save-response
-```
 
 ## 💻 Installation & Setup
 
@@ -69,11 +46,22 @@ source .venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 ```
 
-### 2. Verify Installation
+## 🚀 Quick Start
+
+### Option 1: Web Interface (Recommended)
 ```bash
-# Test the system
-python main.py demo
+streamlit run streamlit_app.py
 ```
+**Access at:** http://localhost:8501
+
+### Option 2: Command Line Interface
+```bash
+# Run complete analysis
+python main.py
+
+```
+
+
 
 ## 🏗️ Project Architecture
 
@@ -219,154 +207,3 @@ rfp_ai/
 - **100% Accuracy** in technical specification matching
 - **15+ Cost Components** automatically calculated
 - **3-Second Analysis** for complex multi-product RFPs
-
-## 🛠️ Advanced Configuration
-
-### Agent Customization
-```python
-# Customize agent behavior
-sales_agent = SalesAgent(
-    lookahead_days=90,          # RFP scanning window
-    min_project_value=1000000   # Minimum project threshold
-)
-
-technical_agent = TechnicalAgent(
-    match_threshold=30.0,       # Minimum match percentage
-    max_recommendations=3       # Top N product matches
-)
-
-pricing_agent = PricingAgent(
-    default_margin=0.10,        # Business margin (10%)
-    discount_tiers={            # Quantity discount structure
-        "1000-5000": 0.05,
-        "5000-10000": 0.08,
-        "10000+": 0.12
-    }
-)
-```
-
-### Data Source Integration
-```python
-# Connect to external data sources
-rfp_scanner = RFPScanner(
-    urls=["https://gem.gov.in", "https://eprocure.gov.in"],
-    update_frequency="daily",
-    filters={"category": "electrical", "min_value": 1000000}
-)
-
-product_catalog = ProductCatalog(
-    database_url="postgresql://...",
-    sync_interval="hourly"
-)
-```
-
-## 🔧 API Integration
-
-### REST API Endpoints (Future Enhancement)
-```python
-# Programmatic access to RFP analysis
-POST /api/v1/analyze-rfp
-GET /api/v1/rfp/{rfp_id}/analysis
-GET /api/v1/products/match/{requirement_id}
-POST /api/v1/pricing/calculate
-```
-
-## 📊 Data Models
-
-### Core Data Structures
-```python
-# RFP Data Model
-RFP = {
-    "rfp_id": "RFP-2024-001",
-    "title": "Metro Rail Cable Supply",
-    "organization": "DMRC",
-    "submission_deadline": "2025-12-15",
-    "project_value": 25000000,
-    "requirements": [...],
-    "testing_requirements": [...],
-    "acceptance_criteria": [...]
-}
-
-# Product Specification Model  
-Product = {
-    "sku": "PWR-11KV-240-XLPE-001",
-    "product_name": "11kV XLPE Power Cable",
-    "specifications": {
-        "voltage_rating": "11kV",
-        "conductor_material": "Copper",
-        "insulation_type": "XLPE",
-        ...
-    },
-    "unit_price": 850.0
-}
-```
-
-## 🎓 Training & Documentation
-
-### User Guides
-- **📚 [Streamlit Interface Guide](STREAMLIT_GUIDE.md)**: Complete web interface documentation
-- **💻 [CLI Usage Guide](CLI_GUIDE.md)**: Command-line interface reference
-- **🔧 [Technical Documentation](TECHNICAL_GUIDE.md)**: System architecture deep-dive
-- **📊 [Data Guide](DATA_GUIDE.md)**: Data format specifications
-
-### Video Tutorials (Coming Soon)
-- System Overview & Demo
-- Web Interface Walkthrough  
-- Advanced Configuration
-- Integration Examples
-
-## 🤝 Contributing
-
-### Development Setup
-```bash
-# Development installation
-git clone <repo>
-cd rfp_ai
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements-dev.txt
-
-# Run tests
-python -m pytest tests/
-
-# Code formatting
-black . && flake8 .
-```
-
-### Adding New Features
-1. **New Agents**: Extend the base agent class
-2. **Data Sources**: Add new data connectors
-3. **UI Components**: Enhance Streamlit interface
-4. **Analysis Algorithms**: Improve matching logic
-
-## 📞 Support & Deployment
-
-### Production Deployment
-- **Docker Support**: Containerized deployment
-- **Cloud Integration**: AWS, Azure, GCP compatible  
-- **Scaling**: Horizontal scaling with Redis
-- **Monitoring**: Prometheus metrics integration
-
-### Enterprise Features
-- **User Authentication**: Role-based access control
-- **Audit Logging**: Complete process tracking
-- **Integration APIs**: ERP system connectivity
-- **Advanced Analytics**: Business intelligence dashboards
-
-## 📜 License & Legal
-
-This project is developed for hackathon/educational purposes. For production use, ensure compliance with:
-- Data privacy regulations
-- Procurement law requirements  
-- Industry-specific standards
-- Intellectual property considerations
-
----
-
-## 🎯 **Ready to Transform Your RFP Process?**
-
-### 🌐 **Launch Web Interface**: `./launch_ui.sh` → http://localhost:8501
-### 💻 **Run CLI Analysis**: `python main.py demo`
-### 📚 **Read Documentation**: Check out our comprehensive guides
-
-**Built for the future of B2B procurement automation** 🚀
